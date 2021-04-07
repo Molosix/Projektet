@@ -1,0 +1,102 @@
+body {
+    background-color : white;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color:black;
+    background-image: url("foto/res.jpg");
+    background-size: 100%;
+    background-position: center;
+    padding:20px ;
+    height:300px;
+    
+}
+.tech li {
+    transition: 0.5s ease;
+    margin: 0px 4px;
+    height: 30px;
+    width: 100px;
+    text-align:center;
+    padding-top: 10px;
+    color: white;
+    background-image: linear-gradient(45deg, #e0ded7, #ffffff);
+    border-radius: 10px;
+}
+ul{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+    margin-right:20px;
+}
+ 
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.he1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3cm;
+}
+
+.he2{
+    text-align: center;
+}
+.klas {
+    background-color:white;
+    color: grey;
+    padding:20px ;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.klas figure{
+    margin:auto;
+    text-align: center;
+    width:300px;
+    
+}
+.klas figure img {
+    height: 250px;
+    width: 300px;
+}
+footer{
+    background-color: black;
+    color:gray;
+    font-size: 12px;
+    padding: 20px 20px ;
+    text-align: center ;
+}
+
+.triFotot {
+    display: flex;
+    width: 100%;
+    height: max-content;
+    justify-content: space-around;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.h1japosht{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 35px;
+}
+.he3{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 35px;
+}
+
+.homiaboutilogini{
+    text-align: right ;
+}

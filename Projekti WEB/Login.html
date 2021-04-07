@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FMU</title>
+    <link rel="stylesheet" href="css/styleL.css" />
+  </head>
+
+  <body>
+    
+    <div class="header">
+      <img
+        id="ubtlogo"
+        class="headerPhoto"
+        src="foto/Foto1.png"
+        alt="FMU Foto"
+      />
+      <ul class="headerList">
+        <li id="item"><a href="index.html">Home</a></li>
+        <li id="item"><a href="about.html">About Us</a> </li>
+        <li><a href="Login.html">Login</a></li>
+        
+      </ul>
+    </div>
+
+    <div class="container">
+      <div class="link-container">
+        <a id="firstA" href="#" onclick="changeForm(0)">Login</a>
+        <a href="#" onclick="changeForm(1)">Register</a>
+      </div>
+      <form id="mainForm" action="">
+        <div class="login forms form-style">
+          <label for="">Username:</label>
+          <input type="text" class="input" id="username" placeholder="username..." />
+          <label for="">Password:</label>
+          <input type="password" class="input" id="password" placeholder="password..." />
+          <input
+            id="submitLogin"
+            type="submit"
+            class="input submit"
+            value="Login"
+            
+          />
+        </div>
+        <div class="register forms hidden">
+          <label for="">Name:</label>
+          <input type="text" class="input" id="name" placeholder="Emri Mbiemri" />
+          <label for="">Username:</label>
+          <input type="text" class="input" id="usernameRegister" placeholder="Username..." />
+          <label for="">Password:</label>
+          <input type="password" class="input" id="passwordRegister" placeholder="password..." />
+          <input
+            id="submitRegister"
+            type="submit"
+            class="input submit"
+            value="Login"
+            
+          />
+        </div>
+      </form>
+    </div>
+    <div class="footer">
+      <i>&copy;</i>
+
+      <h3>FMU </h3>
+    </div>
+    <script src="js/main.js"></script>
+    
+  </body>
+  
+</html>
